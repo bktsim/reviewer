@@ -20,14 +20,14 @@ intrigued as to how these systems actually operate - so I decided to try & build
 
 ## User Stories
 
-#### Phase 1:
+#### Phase 1 (Functionality):
 * As a user, I want to be able to create a new deck
 * As a user, I want to be able to review an existing deck.
 * As a user, I want to be able to add multiple new flashcards to an existing deck
 * As a user, I want to be able to remove existing flashcards from an existing deck
 * As a user, I want to be able to see the level of mastery that I have attained for a deck.
 
-#### Phase 2:
+#### Phase 2 (Persistence):
 * As a user, I want to be able to save my decks and its contents.
 * As a user, I want to be able to load my decks and its contents.
 
@@ -36,7 +36,7 @@ intrigued as to how these systems actually operate - so I decided to try & build
 https://freesound.org/people/StavSounds/sounds/546084/
   
 * Incorrect:
-  https://freesound.org/people/Bertrof/sounds/351563/
+https://freesound.org/people/Bertrof/sounds/351563/
   
 * Alert:
 https://freesound.org/people/Soundwarf/sounds/387533/
@@ -44,7 +44,7 @@ https://freesound.org/people/Soundwarf/sounds/387533/
 * Review Complete:
 https://freesound.org/people/Mativve/sounds/391539/
   
-## Phase 4 - Task 2:
+## Phase 4 - Task 2 (Making a class robust):
 * **Made the `Card` class in `src.main.model` robust.** 
   * `changeScoreBy(int n)` now throws `ExceedThresholdException` whenever the attempt to change the score on a card is 
     illegal. Previously, it did nothing if the score change is illegal. Now it throws an exception, which is then c
@@ -55,7 +55,7 @@ https://freesound.org/people/Mativve/sounds/391539/
 * The exception(s) are seen to be used and handled in `src.main.ui.Controller`, `src.ui.tabs.ReviewMenu`,
   `src.ui.tabs.EditMenu` and `src.main.persistence.JsonReader`.
   
-## Phase 4: Task 3 (UML Class Diagram)
+## Phase 4: Task 3 (UML Class Diagram & looking for potential refactoring)
 ![UML Diagram](UML_Design_Diagram.png)
 **Refactoring:**
 * Inheritance of `Tab` could be way more useful, and refactoring things into this abstract class will solve a lot of 
