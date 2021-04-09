@@ -1,0 +1,21 @@
+{"decks": [
+  {
+    "name": "Deck One",
+    "flashcards": [
+      {
+        "score": 1,
+        "back": "BC",
+        "front": "Where is UBC located?"
+      },
+      {
+        "score": -9999,
+        "back": "2" ,
+        "front": "What is 1+1?"
+      }
+    ]
+  },
+  {
+    "name": "Empty Deck",
+    "flashcards": []
+  }
+]}

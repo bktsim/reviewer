@@ -1,0 +1,56 @@
+{"decks": [
+    {
+        "name": "Deck A",
+        "flashcards": [
+            {
+                "score": 0,
+                "back": "Mitochondria",
+                "front": "What is the powerhouse of the cell?"
+            },
+            {
+                "score": 0,
+                "back": "Vancouver, BC",
+                "front": "Where is UBC located?"
+            },
+            {
+                "score": 0,
+                "back": "Vancouver, BC",
+                "front": "Where is UBC located?"
+            }
+        ]
+    },
+    {
+        "name": "Deck B (Empty)",
+        "flashcards": []
+    },
+    {
+        "name": "Deck C",
+        "flashcards": [
+            {
+                "score": 0,
+                "back": "2",
+                "front": "What is 1+1?"
+            },
+            {
+                "score": 0,
+                "back": "Mitochondria",
+                "front": "What is the powerhouse of the cell?"
+            },
+            {
+                "score": 0,
+                "back": "Flashcards",
+                "front": "What is the name of this application?"
+            },
+            {
+                "score": 0,
+                "back": "x=-1",
+                "front": "Consider f(x) = x^2 + 2x + 1. What are the roots of this function?"
+            },
+            {
+                "score": 0,
+                "back": "2",
+                "front": "What is 1+1?"
+            }
+        ]
+    }
+]}
