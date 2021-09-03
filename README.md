@@ -9,6 +9,9 @@ Users can then review their flashcards using the review option. For each review 
 deck can change depending on whether you remembered the contents on the card (or not). Aim to review all your decks
 once a day and attain 100% mastery level on all of your decks!
 
+This application was created for a software construction course in UBC and was graded by TAs. This application has
+100% test coverage for all packages except for UI.
+
 ## Who can use this software?
 Anyone looking to make flashcards for studying or just retaining information can use this software! Personally, I would
 recommend using this application for subjects that require memorization of things - anywhere from Biology 
